@@ -10,7 +10,7 @@ class Player:
 
     @score.setter
     def score(self, new_value):
-        self._score = self.score + new_value if new_value != 0 else 0
+        self._score = self.score + new_value if new_value != -2 else 0
 
     def update_total_score(self, new_value):
         self.total_score += new_value

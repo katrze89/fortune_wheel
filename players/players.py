@@ -8,4 +8,4 @@ class Players:
 
     def reset_scores(self):
         for player in self.players:
-            player.score = 0
+            player.score = -2
